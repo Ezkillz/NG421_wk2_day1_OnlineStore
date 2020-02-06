@@ -8,7 +8,7 @@ import { EventEmitter } from '@angular/core';
   styleUrls: ['./product-detail.component.css']
 })
 export class ProductDetailComponent implements OnInit {
-  ngOnInit(): void { 
+  ngOnInit(): void {
     }
   @Input() product:Product;
   constructor(){
