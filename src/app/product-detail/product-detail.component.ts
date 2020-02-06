@@ -9,7 +9,6 @@ import { EventEmitter } from '@angular/core';
 })
 export class ProductDetailComponent implements OnInit {
   ngOnInit(): void { 
-      //<span class="glyphicon glyphicon-star-empty"></span>
     }
   @Input() product:Product;
   constructor(){
