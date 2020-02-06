@@ -6,6 +6,8 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { ProductService } from './Services/product.service';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
